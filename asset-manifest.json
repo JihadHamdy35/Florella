@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Florella/static/css/main.4fbec012.css",
-    "main.js": "/Florella/static/js/main.d307de05.js",
+    "main.css": "/Florella/static/css/main.ff871a53.css",
+    "main.js": "/Florella/static/js/main.ab6fcd21.js",
     "static/js/453.d357add9.chunk.js": "/Florella/static/js/453.d357add9.chunk.js",
     "index.html": "/Florella/index.html",
-    "main.4fbec012.css.map": "/Florella/static/css/main.4fbec012.css.map",
-    "main.d307de05.js.map": "/Florella/static/js/main.d307de05.js.map",
+    "main.ff871a53.css.map": "/Florella/static/css/main.ff871a53.css.map",
+    "main.ab6fcd21.js.map": "/Florella/static/js/main.ab6fcd21.js.map",
     "453.d357add9.chunk.js.map": "/Florella/static/js/453.d357add9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fbec012.css",
-    "static/js/main.d307de05.js"
+    "static/css/main.ff871a53.css",
+    "static/js/main.ab6fcd21.js"
   ]
 }
