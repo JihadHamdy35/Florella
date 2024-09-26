@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Florella/static/css/main.ff871a53.css",
-    "main.js": "/Florella/static/js/main.ab6fcd21.js",
-    "static/js/453.d357add9.chunk.js": "/Florella/static/js/453.d357add9.chunk.js",
+    "main.css": "/Florella/static/css/main.66cce6e7.css",
+    "main.js": "/Florella/static/js/main.399c397c.js",
+    "static/js/453.69f3745b.chunk.js": "/Florella/static/js/453.69f3745b.chunk.js",
+    "static/media/home-bg.jpg": "/Florella/static/media/home-bg.c6172ca03e040129f9fb.jpg",
+    "static/media/user_red.png": "/Florella/static/media/user_red.deaf1cbb53ae9ed78350.png",
+    "static/media/cart_red.png": "/Florella/static/media/cart_red.b9a94a55cbdd7644edef.png",
     "index.html": "/Florella/index.html",
-    "main.ff871a53.css.map": "/Florella/static/css/main.ff871a53.css.map",
-    "main.ab6fcd21.js.map": "/Florella/static/js/main.ab6fcd21.js.map",
-    "453.d357add9.chunk.js.map": "/Florella/static/js/453.d357add9.chunk.js.map"
+    "main.66cce6e7.css.map": "/Florella/static/css/main.66cce6e7.css.map",
+    "main.399c397c.js.map": "/Florella/static/js/main.399c397c.js.map",
+    "453.69f3745b.chunk.js.map": "/Florella/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff871a53.css",
-    "static/js/main.ab6fcd21.js"
+    "static/css/main.66cce6e7.css",
+    "static/js/main.399c397c.js"
   ]
 }
