@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
 import root from './index.js';
-/// HEADER ///
+import favourite from './images/favourite.png';
+import cart from './images/cart.png';
+import user from './images/user.png';
+import menu from './images/menu.png';
+import closeMenu from './images/close.png';
 window.onresize = () => {
     root.render(
         <React.StrictMode>
@@ -9,6 +13,7 @@ window.onresize = () => {
         </React.StrictMode>
     );
 }
+/// ---------------- -- Header -------------------- ///
 function changeColor(ele) {
     ele = document.querySelectorAll(`header ul li a img`)[ele];
     let src = ele.getAttribute('src');
@@ -64,15 +69,20 @@ function MenuList() {
     return (
         <div className='menu'>
             <img 
-            src='./assets/menu.png' 
+            src={menu}
             alt='menu' 
             onClick={function () { 
                 let ele = document.querySelector('header .header-list ul');
                 ele.classList.toggle('active');
+                let ele2 = document.querySelector('header .menu img');
                 if (ele.classList.contains('active')) {
                     ele.style.height = '15em';
+                    ele2.setAttribute('src', closeMenu);
+                    ele2.style.animation = 'rotate-left 0.5s ease-in-out';
                 } else {
                     ele.style.height = '0em';
+                    ele2.setAttribute('src', menu);
+                    ele2.style.animation = 'rotate-right 0.5s ease-in-out';
                 }
                 }}/>
         </div>
@@ -83,7 +93,7 @@ function IconsList() {
         <ul>
             <li>
                 <a href='./favourites.html'>
-                    <img src='./assets/favourite.png'
+                    <img src={favourite}
                         alt='favourite'
                         className='favourite'
                         onMouseEnter={function () { changeColor(0) }}
@@ -93,7 +103,7 @@ function IconsList() {
             <li>
                 <a href='./cart.html'>
                     <img
-                        src='./assets/cart.png'
+                        src={cart}
                         alt='cart'
                         className='cart'
                         onMouseEnter={function () { changeColor(1) }}
@@ -103,7 +113,7 @@ function IconsList() {
             <li>
                 <a href='./user.html'>
                     <img
-                        src='./assets/user.png'
+                        src={user}
                         alt='User'
                         className='user'
                         onMouseEnter={function () { changeColor(2) }}
@@ -113,6 +123,13 @@ function IconsList() {
         </ul>
     )
 }
+/// ------------------ Home Page -------------------- ///
+
+
+
+
+
+/// ------------------ Template -------------------- ///
 function App() {
     return (
         <React.StrictMode>

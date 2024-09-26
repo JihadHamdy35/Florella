@@ -6,6 +6,22 @@
     text-decoration: none;
     font-family: 'font-awesome', sans-serif;
 }
+@keyframes rotate-left {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate-right {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
 body{
     background: #f3b7b7;
     width: 100%;
