@@ -6,6 +6,27 @@
     text-decoration: none;
     font-family: 'font-awesome', sans-serif;
 }
+/* Buttons */
+button{
+    width: fit-content;
+    height: 3.5em;
+    padding: 0.5em 1.3em;
+    border-radius: 1.75em;
+    margin-top: 1.5em;
+    background-color: #2c2c2c;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #FF0054;
+    transition: 0.2s ease-in-out;
+}
+button a{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -76,6 +97,7 @@ header ul li img{
     background-image: url('./images/home-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 16em 0 11em 5em;
 }
 #home div.left-side{
@@ -100,26 +122,73 @@ header ul li img{
     min-width: 300px;
     max-width: 480px;
 }
-#home div.left-side button{
-    width: fit-content;
-    height: 3.5em;
-    padding: 0.5em 1.3em;
-    border-radius: 1.75em;
-    margin-top: 1.5em;
-    background-color: #2c2c2c;
-    border: none;
-    cursor: pointer;
+/* About us */
+#About{
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-bottom: 8em;
 }
-#home div.left-side button:hover{
-    background-color: #FF0054;
-    transition: 0.2s ease-in-out;
+#About .header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e559;
 }
-#home div.left-side button a{
-    font-size: 1em;
-    color: white;
-    font-weight: bold;
-    padding: 0.5em 1.5em;
+#About .header h1{
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-left: 0.5em;
 }
+#About .header h1:nth-child(1){
+    color: #FF0054;
+    margin-left: 0;
+}
+#About .content{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+}
+#About .content .left-side{
+    width: 45%;
+    height: fit-content;
+}
+#About .content .left-side .comment{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    background-color: white;
+    margin-top: 0.5em;
+    color: in;
+}
+#About .content .left-side video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#About .content .content-text{
+    width: 50%;
+    height: fit-content;
+}
+#About .content .content-text h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#About .content .content-text p{
+    font-size: 0.9em;
+    margin-top: 1em;
+    line-height: 1.5em;
+    color: rgb(114, 114, 114);
+}
+/* Media Query */
 @media screen and (max-width: 800px) {
     header .menu{
         display: block;
@@ -159,6 +228,7 @@ header ul li img{
     }
     #home{
         padding: 18em 0 13em 0em;
+        background-position-x: 58%;
     }
     #home div.left-side{
         width: 80%;
@@ -175,5 +245,24 @@ header ul li img{
     #home div.left-side p{
         font-size: 1em;
         word-spacing: 4px;
+    }
+    #About .header h1{
+        font-size: 1.8em;
+    }
+    #About .content{
+        flex-direction: column;
+    }
+    #About .content .left-side{
+        width: 100%;
+    }
+    #About .content .content-text{
+        width: 100%;
+        margin-top: 2em;
+    }
+    #About .content .content-text h2{
+        font-size: 1.3em;
+    }
+    #About .content .content-text p{
+        font-size: 0.8em;
     }
 }

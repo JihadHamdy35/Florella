@@ -9,12 +9,21 @@ import red_favourite from './images/favourite_red.png';
 import red_cart from './images/cart_red.png';
 import red_user from './images/user_red.png';
 import closeMenu from './images/close.png';
+import aboutVid from './images/about-vid.mp4';
 window.onresize = () => {
     root.render(
         <React.StrictMode>
             <App />
         </React.StrictMode>
     );
+}
+/// ------------------ Buttons -------------------- ///
+function Button(props){
+    return(
+        <button>
+            <a href={props.href}>{props.content}</a>
+        </button>
+    )
 }
 /// ---------------- -- Header -------------------- ///
 function changeColor(ele) {
@@ -147,11 +156,48 @@ function HomePage() {
                     facere eius, molestiae rerum nesciunt, quasi in similique tenetur
                     dolorum, adipisci officiis eveniet aliquam!
                 </p>
-                <button>
-                    <a href='#Products'>Shop Now</a>
-                </button>
+                <Button 
+                    href='#Products' 
+                    content='Shop Now'
+                />
             </div>
         </div>
+    )
+}
+/// ------------------ About Us Page -------------------- ///
+function AboutUsPage() {
+    return (
+        <section id='About'>
+            <div className='header'>
+                <h1>About</h1>
+                <h1>Us</h1>
+            </div>
+            <div className='content'>
+                <div className='left-side'>
+                    <video autoPlay muted loop>
+                        <source src={aboutVid} type='video/mp4' />
+                    </video>
+                </div>
+                <div className='content-text'>
+                    <h2>Why Choose Us ? </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Blanditiis consectetur sit aperiam eaque incidunt obcaecati
+                        eum facere eius, molestiae rerum nesciunt.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Blanditiis consectetur sit aperiam eaque incidunt obcaecati.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Blanditiis consectetur sit aperiam eaque incidunt obcaecati
+                        eum facere eius, molestiae rerum nesciunt.
+                    </p>
+                    <Button
+                        href='#Review'
+                        content='Learn More'
+                    />
+                </div>
+            </div>
+        </section>
     )
 }
 /// ------------------ Template -------------------- ///
@@ -160,6 +206,7 @@ function App() {
         <React.StrictMode>
             <Header />
             <HomePage />
+            <AboutUsPage />
         </React.StrictMode>
     )
 }
