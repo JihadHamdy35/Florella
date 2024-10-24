@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Florella_2/static/css/main.d4a42b84.css",
-    "main.js": "/Florella_2/static/js/main.d7eb184b.js",
-    "static/js/453.69f3745b.chunk.js": "/Florella_2/static/js/453.69f3745b.chunk.js",
-    "static/media/about-vid.mp4": "/Florella_2/static/media/about-vid.aae93b1c4f6ee4aabc08.mp4",
-    "static/media/home-bg.jpg": "/Florella_2/static/media/home-bg.c6172ca03e040129f9fb.jpg",
-    "static/media/user_red.png": "/Florella_2/static/media/user_red.deaf1cbb53ae9ed78350.png",
-    "static/media/cart_red.png": "/Florella_2/static/media/cart_red.b9a94a55cbdd7644edef.png",
-    "index.html": "/Florella_2/index.html",
-    "main.d4a42b84.css.map": "/Florella_2/static/css/main.d4a42b84.css.map",
-    "main.d7eb184b.js.map": "/Florella_2/static/js/main.d7eb184b.js.map",
-    "453.69f3745b.chunk.js.map": "/Florella_2/static/js/453.69f3745b.chunk.js.map"
+    "main.css": "/Florella/static/css/main.87d4e235.css",
+    "main.js": "/Florella/static/js/main.68e46626.js",
+    "static/js/453.69f3745b.chunk.js": "/Florella/static/js/453.69f3745b.chunk.js",
+    "static/media/about-vid.mp4": "/Florella/static/media/about-vid.aae93b1c4f6ee4aabc08.mp4",
+    "static/media/home-bg.jpg": "/Florella/static/media/home-bg.c6172ca03e040129f9fb.jpg",
+    "static/media/user_red.png": "/Florella/static/media/user_red.deaf1cbb53ae9ed78350.png",
+    "static/media/cart_red.png": "/Florella/static/media/cart_red.b9a94a55cbdd7644edef.png",
+    "index.html": "/Florella/index.html",
+    "main.87d4e235.css.map": "/Florella/static/css/main.87d4e235.css.map",
+    "main.68e46626.js.map": "/Florella/static/js/main.68e46626.js.map",
+    "453.69f3745b.chunk.js.map": "/Florella/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4a42b84.css",
-    "static/js/main.d7eb184b.js"
+    "static/css/main.87d4e235.css",
+    "static/js/main.68e46626.js"
   ]
 }
